@@ -1,4 +1,4 @@
-package org.example.controladores;
+package org.example.util;
 
 import io.javalin.Javalin;
 

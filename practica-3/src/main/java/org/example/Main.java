@@ -51,6 +51,8 @@ public class Main {
         new editarArticulo(app).aplicarRutas();
         new agregarComentario(app).aplicarRutas();
         new mostrarUsuarios(app).aplicarRutas();
+        new CookiesSeccionesControlador(app).aplicarRutas();
+
 
         app.get("/blog", cxt -> {
             cxt.redirect("blog.html");
