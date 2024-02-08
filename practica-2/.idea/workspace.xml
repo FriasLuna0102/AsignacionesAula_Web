@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="689db85a-2d5f-40d9-9234-737496ef4111" name="Changes" comment="commmit inicial.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clases/Articulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clases/Comentario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clases/Etiqueta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/clases/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controladores/ControladorClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controladores/CrearArticulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controladores/CrearUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controladores/EliminarArticulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controladores/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controladores/PlantillasControlador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controladores/agregarComentario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controladores/editarArticulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controladores/mostrarUsuarios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/css/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/css/crearUsuario.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/css/editarArticulo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/css/mostrarArticulo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/css/plantilla_articulos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/css/styleLogin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/html/blogUsuario.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/html/crearArticulo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/html/crearUsuario.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/html/listarUsuarios.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/html/seccionComentario.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/img/360_F_391461057_5P0BOWl4lY442Zoo9rzEeJU0S2c1WDZR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/img/laptop-2559795_1280.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/img/leone-venter-VieM9BdZKFo-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/img/pexels-pixabay-531880.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/img/retrosupply-jLwVAUtLOAQ-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/img/shapelined-_JBKdviweXI-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/temp/articulo_plantila.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/publico/temp/editarArticulos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practica_3/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="practica2_blog" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="practica2_blog" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="practica2_blog" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FriasLuna0102&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="36c36143-e62c-4e1b-b84d-f10f2aa8a174" />
+        <option name="url" value="https://github.com/FriasLuna0102/practicas-icc-352" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php-8.3.2\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2bYIWG1KkNAwOdoTqNaEowuuTId" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.Build practica-2.executor": "Run",
+    "Gradle.practica-2 [:Main.main()].executor": "Run",
+    "Gradle.practica-2 [run].executor": "Run",
+    "JavaScript Debug.articulo_plantila.html.executor": "Run",
+    "JavaScript Debug.blog.html.executor": "Run",
+    "JavaScript Debug.blogUsuario.html.executor": "Run",
+    "JavaScript Debug.crearArticulo.html.executor": "Run",
+    "JavaScript Debug.crearUsuario.html.executor": "Run",
+    "JavaScript Debug.editarArticulos.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.listarUsuario.html.executor": "Run",
+    "JavaScript Debug.listarUsuarios.html.executor": "Run",
+    "JavaScript Debug.login.html.executor": "Run",
+    "JavaScript Debug.seccionComentario.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Frias Luna/OneDrive - Pontificia Universidad Católica Madre y Maestra/Escritorio/Programacion Web/Asignaciones en el aula/Asignaciones Web/practica-3",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Frias Luna\OneDrive - Pontificia Universidad Católica Madre y Maestra\Escritorio\Programacion Web\Practicas-isc-517\practicas-isc-517\practica-2\src\main\resources\publico" />
+      <recent name="C:\Users\Frias Luna\OneDrive - Pontificia Universidad Católica Madre y Maestra\Escritorio\Programacion Web\Practicas-isc-517\practicas-isc-517\practica-2\src\main\resources\publico\html" />
+      <recent name="C:\Users\Frias Luna\OneDrive - Pontificia Universidad Católica Madre y Maestra\Escritorio\Programacion Web\Practicas-isc-517\practicas-isc-517\practica-2\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="practica2_blog" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="practica-2 [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="practica2_blog" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="practica2_blog" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="practica2_blog" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="practica2_blog" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="practica2_blog" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="practica2_blog" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.practica-2 [run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-temurin-21.0.1-4caba194b151-b7b86d5d" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="689db85a-2d5f-40d9-9234-737496ef4111" name="Changes" comment="" />
+      <created>1706385617610</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706385617610</updated>
+      <workItem from="1706385618570" duration="58000" />
+      <workItem from="1706397904090" duration="55755000" />
+      <workItem from="1706575900253" duration="11241000" />
+      <workItem from="1706650238580" duration="522000" />
+      <workItem from="1706662041394" duration="7908000" />
+      <workItem from="1706711013834" duration="4000" />
+      <workItem from="1706711978697" duration="5093000" />
+      <workItem from="1706718798399" duration="5276000" />
+      <workItem from="1706727879997" duration="2788000" />
+      <workItem from="1706732769533" duration="14000" />
+      <workItem from="1706733676551" duration="20000" />
+      <workItem from="1706748459927" duration="12628000" />
+      <workItem from="1706797376516" duration="4396000" />
+      <workItem from="1706805802526" duration="14167000" />
+      <workItem from="1706835336949" duration="501000" />
+      <workItem from="1706836171536" duration="10989000" />
+      <workItem from="1706882063434" duration="3442000" />
+      <workItem from="1706890297919" duration="6728000" />
+      <workItem from="1706901279495" duration="197000" />
+      <workItem from="1706903900251" duration="37000" />
+      <workItem from="1706921075217" duration="10886000" />
+      <workItem from="1706971057345" duration="8150000" />
+      <workItem from="1706984263329" duration="3074000" />
+      <workItem from="1706988422621" duration="6256000" />
+      <workItem from="1706994711437" duration="3366000" />
+      <workItem from="1706998101167" duration="1148000" />
+      <workItem from="1707004319074" duration="11705000" />
+      <workItem from="1707065141897" duration="1795000" />
+      <workItem from="1707074400639" duration="4815000" />
+      <workItem from="1707090369182" duration="666000" />
+      <workItem from="1707091361835" duration="653000" />
+      <workItem from="1707092190607" duration="2093000" />
+      <workItem from="1707097424326" duration="90000" />
+      <workItem from="1707135242925" duration="970000" />
+      <workItem from="1707141281493" duration="1017000" />
+      <workItem from="1707144280538" duration="4075000" />
+      <workItem from="1707152676060" duration="1406000" />
+      <workItem from="1707174269250" duration="4138000" />
+      <workItem from="1707187310864" duration="602000" />
+      <workItem from="1707253562595" duration="1919000" />
+      <workItem from="1707261075299" duration="646000" />
+      <workItem from="1707309633567" duration="50000" />
+      <workItem from="1707310543008" duration="1513000" />
+      <workItem from="1707322126476" duration="318000" />
+      <workItem from="1707332548258" duration="720000" />
+      <workItem from="1707359239654" duration="302000" />
+      <workItem from="1707359578868" duration="192000" />
+    </task>
+    <task id="LOCAL-00020" summary="se agrego nombre de usuario despues de loguearse.">
+      <option name="closed" value="true" />
+      <created>1706586333861</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1706586333861</updated>
+    </task>
+    <task id="LOCAL-00021" summary="verica si es autor o admin.">
+      <option name="closed" value="true" />
+      <created>1706587714478</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1706587714478</updated>
+    </task>
+    <task id="LOCAL-00022" summary="verica si es autor o admin.">
+      <option name="closed" value="true" />
+      <created>1706625768195</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1706625768195</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Se creo crearArticulo y generarId.">
+      <option name="closed" value="true" />
+      <created>1706668250194</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1706668250194</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Se creo crearArticulo y generarId.">
+      <option name="closed" value="true" />
+      <created>1706669954323</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1706669954323</updated>
+    </task>
+    <task id="LOCAL-00025" summary="creacion de metodos para agregar y obtener articulos.">
+      <option name="closed" value="true" />
+      <created>1706719014873</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1706719014873</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Se termino lo de crear articulo.">
+      <option name="closed" value="true" />
+      <created>1706719163353</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1706719163353</updated>
+    </task>
+    <task id="LOCAL-00027" summary="se agrega el nombre del autor cuando se crea un articulo.">
+      <option name="closed" value="true" />
+      <created>1706720462357</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1706720462357</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Se puede crear articulo.">
+      <option name="closed" value="true" />
+      <created>1706722871965</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1706722871965</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Se soluciono lo de la etiquetas para todos los articulos.">
+      <option name="closed" value="true" />
+      <created>1706723210937</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1706723210937</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Se soluciono lo de la etiquetas para todos los articulos.">
+      <option name="closed" value="true" />
+      <created>1706724138945</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1706724138945</updated>
+    </task>
+    <task id="LOCAL-00031" summary="se agrego articulos populares y etiquetas.">
+      <option name="closed" value="true" />
+      <created>1706750335514</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1706750335514</updated>
+    </task>
+    <task id="LOCAL-00032" summary="se creo metodo para crear un html por cada articulo.">
+      <option name="closed" value="true" />
+      <created>1706757374282</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1706757374282</updated>
+    </task>
+    <task id="LOCAL-00033" summary="se agrego que mediante el titulo puedas acceder al articulo.">
+      <option name="closed" value="true" />
+      <created>1706758579360</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1706758579360</updated>
+    </task>
+    <task id="LOCAL-00034" summary="se agrego funcionad de borrar.">
+      <option name="closed" value="true" />
+      <created>1706815623796</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1706815623796</updated>
+    </task>
+    <task id="LOCAL-00035" summary="se agrego funcionad de borrar.">
+      <option name="closed" value="true" />
+      <created>1706816041107</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1706816041107</updated>
+    </task>
+    <task id="LOCAL-00036" summary="se agrego plantilla para los articulos.">
+      <option name="closed" value="true" />
+      <created>1706821714371</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1706821714371</updated>
+    </task>
+    <task id="LOCAL-00037" summary="se agrego plantilla para los articulos.">
+      <option name="closed" value="true" />
+      <created>1706836833496</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1706836833496</updated>
+    </task>
+    <task id="LOCAL-00038" summary="ya se puede vizualizar los articulos por el titulo.">
+      <option name="closed" value="true" />
+      <created>1706839159955</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1706839159955</updated>
+    </task>
+    <task id="LOCAL-00039" summary="se creo css para crearUsuario y MostrarArticulos.">
+      <option name="closed" value="true" />
+      <created>1706840827746</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1706840827746</updated>
+    </task>
+    <task id="LOCAL-00040" summary="falta terminar lo de modificar articulo.">
+      <option name="closed" value="true" />
+      <created>1706847183560</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1706847183560</updated>
+    </task>
+    <task id="LOCAL-00041" summary="falta terminar lo de modificar articulo (arreglar pequeños detalles).">
+      <option name="closed" value="true" />
+      <created>1706894784987</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1706894784987</updated>
+    </task>
+    <task id="LOCAL-00042" summary="falta terminar lo de modificar articulo (arreglar pequeños detalles).">
+      <option name="closed" value="true" />
+      <created>1706924331805</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1706924331805</updated>
+    </task>
+    <task id="LOCAL-00043" summary="falta terminar lo de modificar articulo (arreglar pequeños detalles).">
+      <option name="closed" value="true" />
+      <created>1706924696764</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1706924696764</updated>
+    </task>
+    <task id="LOCAL-00044" summary="falta terminar lo de modificar articulo (arreglar pequeños detalles).">
+      <option name="closed" value="true" />
+      <created>1706926494046</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1706926494046</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Todo lo de la edicion, eliminar, excelente.">
+      <option name="closed" value="true" />
+      <created>1706930081882</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1706930081882</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Todo lo de la edicion, eliminar, excelente.">
+      <option name="closed" value="true" />
+      <created>1706932006286</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1706932006287</updated>
+    </task>
+    <task id="LOCAL-00047" summary="se agrega el ultimo articulo de primero.">
+      <option name="closed" value="true" />
+      <created>1706933393707</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1706933393707</updated>
+    </task>
+    <task id="LOCAL-00048" summary="se agrega el ultimo articulo de primero.">
+      <option name="closed" value="true" />
+      <created>1706972525956</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1706972525956</updated>
+    </task>
+    <task id="LOCAL-00049" summary="se agrega el ultimo articulo de primero.">
+      <option name="closed" value="true" />
+      <created>1706972708180</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1706972708180</updated>
+    </task>
+    <task id="LOCAL-00050" summary="ya se crean los comentarios, falta mostrarlos.">
+      <option name="closed" value="true" />
+      <created>1706978017353</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1706978017353</updated>
+    </task>
+    <task id="LOCAL-00051" summary="ya se crean los comentarios, falta mostrarlos.">
+      <option name="closed" value="true" />
+      <created>1706989831640</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1706989831640</updated>
+    </task>
+    <task id="LOCAL-00052" summary="solucionar problemas de comentarios.">
+      <option name="closed" value="true" />
+      <created>1706999242383</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1706999242383</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Todo bien con los comentarios.">
+      <option name="closed" value="true" />
+      <created>1707010179335</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1707010179335</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Terminado, dar retoques finales.">
+      <option name="closed" value="true" />
+      <created>1707011103211</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1707011103211</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Terminado, dar retoques finales.">
+      <option name="closed" value="true" />
+      <created>1707011992865</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1707011992865</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Terminada.">
+      <option name="closed" value="true" />
+      <created>1707017077725</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1707017077725</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Terminada.">
+      <option name="closed" value="true" />
+      <created>1707141854887</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1707141854888</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Terminada.">
+      <option name="closed" value="true" />
+      <created>1707142068080</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1707142068081</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Terminada.">
+      <option name="closed" value="true" />
+      <created>1707148340597</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1707148340597</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Terminada.">
+      <option name="closed" value="true" />
+      <created>1707168064744</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1707168064745</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Terminada.">
+      <option name="closed" value="true" />
+      <created>1707174957775</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1707174957775</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Terminada.">
+      <option name="closed" value="true" />
+      <created>1707187161476</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1707187161476</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Terminada.">
+      <option name="closed" value="true" />
+      <created>1707230382909</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1707230382909</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Terminada.">
+      <option name="closed" value="true" />
+      <created>1707254135422</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1707254135422</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Terminada.">
+      <option name="closed" value="true" />
+      <created>1707258511567</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1707258511567</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Terminada.">
+      <option name="closed" value="true" />
+      <created>1707322432984</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1707322432985</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Terminada.">
+      <option name="closed" value="true" />
+      <created>1707359616775</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1707359616775</updated>
+    </task>
+    <task id="LOCAL-00068" summary="commmit inicial.">
+      <option name="closed" value="true" />
+      <created>1707359678006</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1707359678006</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="se agrego nombre de usuario despues de loguearse." />
+    <MESSAGE value="verica si es autor o admin." />
+    <MESSAGE value="Se creo crearArticulo y generarId." />
+    <MESSAGE value="creacion de metodos para agregar y obtener articulos." />
+    <MESSAGE value="Se termino lo de crear articulo." />
+    <MESSAGE value="se agrega el nombre del autor cuando se crea un articulo." />
+    <MESSAGE value="Se puede crear articulo." />
+    <MESSAGE value="Se soluciono lo de la etiquetas para todos los articulos." />
+    <MESSAGE value="se agrego articulos populares y etiquetas." />
+    <MESSAGE value="se creo metodo para crear un html por cada articulo." />
+    <MESSAGE value="se agrego que mediante el titulo puedas acceder al articulo." />
+    <MESSAGE value="se agrego funcionad de borrar." />
+    <MESSAGE value="se agrego plantilla para los articulos." />
+    <MESSAGE value="ya se puede vizualizar los articulos por el titulo." />
+    <MESSAGE value="se creo css para crearUsuario y MostrarArticulos." />
+    <MESSAGE value="falta terminar lo de modificar articulo." />
+    <MESSAGE value="falta terminar lo de modificar articulo (arreglar pequeños detalles)." />
+    <MESSAGE value="Todo lo de la edicion, eliminar, excelente." />
+    <MESSAGE value="se agrega el ultimo articulo de primero." />
+    <MESSAGE value="ya se crean los comentarios, falta mostrarlos." />
+    <MESSAGE value="solucionar problemas de comentarios." />
+    <MESSAGE value="Todo bien con los comentarios." />
+    <MESSAGE value="Terminado, dar retoques finales." />
+    <MESSAGE value="Terminada." />
+    <MESSAGE value="commmit inicial." />
+    <option name="LAST_COMMIT_MESSAGE" value="commmit inicial." />
+  </component>
+</project>
