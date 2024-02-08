@@ -11,9 +11,20 @@ public class CookiesSeccionesControlador extends ControladorClass {
     @Override
     public void aplicarRutas() {
 
-        app.post("/crearCookies", cxt ->{
-
-            System.out.println("Hello");
+        app.post("/login-cookies", ctxContext -> {
+            //Recibiendo información del formulario.
+            String usuario = ctxContext.formParam("username");
+            String contrasena = ctxContext.formParam("password");
+            if(usuario==null || contrasena == null){
+                //Error para procesar la información.
+                ctxContext.redirect("/login");
+                return;
+            }
+            //Estamos haciendo fake de un servicio de autenticacion, busque en un servicio.
+            ctxContext.cookie("usuario", usuario, 120);
+            ctxContext.cookie("password", contrasena, 120);
+            //enviando a la vista.
+            System.out.println("Funciono");
         });
 
     }
